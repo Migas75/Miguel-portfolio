@@ -2,11 +2,12 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/styles.css">
-        <script src="https://kit.fontawesome.com/aabd2e53ae.js" crossorigin="anonymous"></script>
         <title>Miguel's Portfolio</title>
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" 
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" 
+        crossorigin="anonymous"/>
+        <link rel="stylesheet" href="css/styles.css">
     </head>
     <body id="home">
 
@@ -17,8 +18,8 @@
         <ul> 
            <li><a href="#home">Home</a></li>
            <li><a href="#about">About</a></li>
-           <li><a href="#contact">Contact</a></li>
-           <li><a href="#portfolio">Portfolio</a></li>  
+           <li><a href="#services">Services</a></li>
+           <li><a href="#contact">Contact</a></li>  
         </ul>
     </nav>
     
@@ -27,29 +28,109 @@
     <header id="hero">
         <div class="hero-content">
             <div class="container">
-                <h1>Hi, I'm Miguel Claro <br> <span class="text-primary">Front Web Developer</span></h1>
+                <h1>Take your business to the <br> <span class="text-primary">Next Level</span></h1>
+                <a href="#about" class="btn">Find out how!</a>
             </div>
         </div>
     </header>
 
 <!--About Area-->
 
-    <section class="about">
+    <section id="about">
         <div class="container">
             <h2 class="about-heading">Get to know <span class="text-primary">Me</span></h2>
-            <div class="about-content">
-                <div class="about-text">
-                    <h3>A little bit<span class="text-primary"> About myself</span></h3>
-                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa nihil quibusdam facere veniam suscipit rerum natus quaerat minus saepe ex, delectus omnis iste eaque iusto placeat libero aperiam dolorum labore fugit similique fugiat eius quod inventore. Eveniet commodi voluptatum nesciunt delectus possimus autem ut quia.</p>
-                    <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima dicta architecto sit totam nam dolorum ipsum suscipit iure sed, mollitia eos quam nostrum beatae veniam perspiciatis, explicabo cupiditate similique illo!</p>
-                    <p class="lead"><img src="images/miguel_face.jpg" alt="Picture of me">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus iure, ut necessitatibus quisquam iste itaque ea possimus cum ipsum excepturi, tempore placeat quod sunt cumque suscipit fugiat temporibus molestias quo assumenda voluptas dolores! Laudantium iste ducimus odit accusantium? Repellat, non deserunt ab reprehenderit natus eaque, odio, consectetur vero voluptate consequuntur delectus. Esse laboriosam fugit veritatis.</p>
+                <div class="about-content">
+                    <div class="about-text">
+                        <h3>A little bit<span class="text-primary"> About myself</span></h3>
+                            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Illo animi rerum veritatis natus. Enim eius incidunt ipsum dicta consequuntur earum laboriosam accusamus corrupti 
+                            facilis porro. Voluptatibus dolore nostrum fugit explicabo corporis ad reprehenderit quibusdam? Repellat illo officiis,
+                            nisi voluptatibus velit aliquid explicabo dignissimos esse iste!</p>
+                            <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                            Minima dicta architecto sit totam nam dolorum ipsum suscipit iure sed, 
+                            mollitia eos quam nostrum beatae veniam perspiciatis, explicabo cupiditate similique illo!</p>
+                            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus iure,
+                            ut necessitatibus quisquam iste itaque ea possimus cum ipsum excepturi, 
+                            tempore placeat quod sunt cumque suscipit fugiat temporibus molestias quo assumenda voluptas dolores! 
+                            Lau Ipsa nihil quibusdam facere veniam suscipit rerum natus quaerat minus saepe ex, 
+                            delectus omnis iste eaque iusto placeat libero aperiam dolorum labore fugit similique fugiat eius quod inventore. 
+                            Eveniet commodi voluptatum nesciunt delectus possimus autem ut quia.dantium iste ducimus odit accusantium? Repellat,
+                            non deserunt ab reprehenderit natus eaque, odio, consectetur vero voluptate consequuntur delectus. 
+                            Esse laboriosam fugit veritatis.</p>
+                    </div>
+                            <div class="about-image">
+                                <img src="images/miguel_face.jpg" alt="Picture of myself">   
+                            </div>
                 </div>
-                    
+        </div>
+    </section>
+
+<!-- Services Area -->
+
+    <section id="services" class="bg-light">
+        <div class="container">
+            <h2>Here is what <span class="text-primary">I have to Offer</span></h2>
+            <div class="boxes">
+                <div class="box">
+                    <h3><span class="text-primary">Awesome Modern Website</span></h3>
+                    <div class="feature">
+                        <i class="fas fa-check"></i> Modern Layout Design
+                    <div class="feature">
+                        <i class="fas fa-check"></i> Responsive Website Design
+                     <div class="feature">
+                        <i class="fas fa-check"></i> Browser Compatibility
+                     <div class="feature">
+                        <i class="fas fa-check"></i> Search Engine Optimization    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Contact Area -->
+
+    <section id="contact" class="bg-light">
+        <div class="container">
+            <h2>Get your <span class="text-primary">Killer Website</span> Now</h2>
+            <div class="form-container">
+               <div class="mail-icon"><i class="fas fa-envelope"></i></div> 
+               <div class="form-box">
+                   <h3>Shoot me a <span class="text-primary">Message</span></h3>
+                   <form>
+                        <div class="form-group">
+                            <label for="first-name">First Name</label>
+                            <input type="text" placeholder="Enter your First name">
+                        </div>
+                        <div class="form-group">
+                            <label for="last-name">Last Name</label>
+                            <input type="text" placeholder="Enter your Last name">
+                        </div>   
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" placeholder="Enter your Email">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea rows="7" placeholder="Enter your Message"></textarea>
+                        </div>
+                        <input type="submit" value="Send Message" class="contact-btn">
+                   </form>
+               </div>
             </div>
         </div>
     </section>
     
-        
-    
+<!-- Footer -->
+
+<footer class="bg-dark">
+    <p>Copyright &copy; Miguel Claro Web Dev 2021</p>
+</footer>
+
+<!-- jQuery CDN -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" 
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<!-- Local JS file -->
+<script src="js/main.js"></script> 
+
 </body>
 </html>
